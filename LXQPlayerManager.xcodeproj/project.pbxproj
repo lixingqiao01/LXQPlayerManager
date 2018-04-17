@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EED4315520859EE300AF6814 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EED4315420859EE300AF6814 /* AppDelegate.m */; };
+		EED4315820859EE300AF6814 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EED4315720859EE300AF6814 /* ViewController.m */; };
+		EED4315B20859EE300AF6814 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED4315920859EE300AF6814 /* Main.storyboard */; };
+		EED4315D20859EE400AF6814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EED4315C20859EE400AF6814 /* Assets.xcassets */; };
+		EED4316020859EE500AF6814 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED4315E20859EE400AF6814 /* LaunchScreen.storyboard */; };
+		EED4316320859EE500AF6814 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EED4316220859EE500AF6814 /* main.m */; };
+		EED4316D20859EE500AF6814 /* LXQPlayerManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EED4316C20859EE500AF6814 /* LXQPlayerManagerTests.m */; };
+		EED4317820859EE500AF6814 /* LXQPlayerManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EED4317720859EE500AF6814 /* LXQPlayerManagerUITests.m */; };
+		EED4318A20859EF800AF6814 /* LXQPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EED4318620859EF800AF6814 /* LXQPlayerManager.m */; };
+		EED4318B20859EF800AF6814 /* LXQPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EED4318920859EF800AF6814 /* LXQPlayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EED4316920859EE500AF6814 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EED4314820859EE300AF6814 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EED4314F20859EE300AF6814;
+			remoteInfo = LXQPlayerManager;
+		};
+		EED4317420859EE500AF6814 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EED4314820859EE300AF6814 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EED4314F20859EE300AF6814;
+			remoteInfo = LXQPlayerManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EED4315020859EE300AF6814 /* LXQPlayerManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXQPlayerManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED4315320859EE300AF6814 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EED4315420859EE300AF6814 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EED4315620859EE300AF6814 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EED4315720859EE300AF6814 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EED4315A20859EE300AF6814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EED4315C20859EE400AF6814 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EED4315F20859EE400AF6814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EED4316120859EE500AF6814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EED4316220859EE500AF6814 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EED4316820859EE500AF6814 /* LXQPlayerManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXQPlayerManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED4316C20859EE500AF6814 /* LXQPlayerManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXQPlayerManagerTests.m; sourceTree = "<group>"; };
+		EED4316E20859EE500AF6814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EED4317320859EE500AF6814 /* LXQPlayerManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXQPlayerManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED4317720859EE500AF6814 /* LXQPlayerManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXQPlayerManagerUITests.m; sourceTree = "<group>"; };
+		EED4317920859EE500AF6814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EED4318620859EF800AF6814 /* LXQPlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXQPlayerManager.m; sourceTree = "<group>"; };
+		EED4318720859EF800AF6814 /* LXQPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXQPlayer.h; sourceTree = "<group>"; };
+		EED4318820859EF800AF6814 /* LXQPlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXQPlayerManager.h; sourceTree = "<group>"; };
+		EED4318920859EF800AF6814 /* LXQPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXQPlayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EED4314D20859EE300AF6814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED4316520859EE500AF6814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED4317020859EE500AF6814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EED4314720859EE300AF6814 = {
+			isa = PBXGroup;
+			children = (
+				EED4318520859EF800AF6814 /* LXQPlayer */,
+				EED4315220859EE300AF6814 /* LXQPlayerManager */,
+				EED4316B20859EE500AF6814 /* LXQPlayerManagerTests */,
+				EED4317620859EE500AF6814 /* LXQPlayerManagerUITests */,
+				EED4315120859EE300AF6814 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EED4315120859EE300AF6814 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EED4315020859EE300AF6814 /* LXQPlayerManager.app */,
+				EED4316820859EE500AF6814 /* LXQPlayerManagerTests.xctest */,
+				EED4317320859EE500AF6814 /* LXQPlayerManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EED4315220859EE300AF6814 /* LXQPlayerManager */ = {
+			isa = PBXGroup;
+			children = (
+				EED4315320859EE300AF6814 /* AppDelegate.h */,
+				EED4315420859EE300AF6814 /* AppDelegate.m */,
+				EED4315620859EE300AF6814 /* ViewController.h */,
+				EED4315720859EE300AF6814 /* ViewController.m */,
+				EED4315920859EE300AF6814 /* Main.storyboard */,
+				EED4315C20859EE400AF6814 /* Assets.xcassets */,
+				EED4315E20859EE400AF6814 /* LaunchScreen.storyboard */,
+				EED4316120859EE500AF6814 /* Info.plist */,
+				EED4316220859EE500AF6814 /* main.m */,
+			);
+			path = LXQPlayerManager;
+			sourceTree = "<group>";
+		};
+		EED4316B20859EE500AF6814 /* LXQPlayerManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EED4316C20859EE500AF6814 /* LXQPlayerManagerTests.m */,
+				EED4316E20859EE500AF6814 /* Info.plist */,
+			);
+			path = LXQPlayerManagerTests;
+			sourceTree = "<group>";
+		};
+		EED4317620859EE500AF6814 /* LXQPlayerManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EED4317720859EE500AF6814 /* LXQPlayerManagerUITests.m */,
+				EED4317920859EE500AF6814 /* Info.plist */,
+			);
+			path = LXQPlayerManagerUITests;
+			sourceTree = "<group>";
+		};
+		EED4318520859EF800AF6814 /* LXQPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				EED4318620859EF800AF6814 /* LXQPlayerManager.m */,
+				EED4318720859EF800AF6814 /* LXQPlayer.h */,
+				EED4318820859EF800AF6814 /* LXQPlayerManager.h */,
+				EED4318920859EF800AF6814 /* LXQPlayer.m */,
+			);
+			path = LXQPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EED4314F20859EE300AF6814 /* LXQPlayerManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EED4317C20859EE500AF6814 /* Build configuration list for PBXNativeTarget "LXQPlayerManager" */;
+			buildPhases = (
+				EED4314C20859EE300AF6814 /* Sources */,
+				EED4314D20859EE300AF6814 /* Frameworks */,
+				EED4314E20859EE300AF6814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXQPlayerManager;
+			productName = LXQPlayerManager;
+			productReference = EED4315020859EE300AF6814 /* LXQPlayerManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EED4316720859EE500AF6814 /* LXQPlayerManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EED4317F20859EE500AF6814 /* Build configuration list for PBXNativeTarget "LXQPlayerManagerTests" */;
+			buildPhases = (
+				EED4316420859EE500AF6814 /* Sources */,
+				EED4316520859EE500AF6814 /* Frameworks */,
+				EED4316620859EE500AF6814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EED4316A20859EE500AF6814 /* PBXTargetDependency */,
+			);
+			name = LXQPlayerManagerTests;
+			productName = LXQPlayerManagerTests;
+			productReference = EED4316820859EE500AF6814 /* LXQPlayerManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EED4317220859EE500AF6814 /* LXQPlayerManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EED4318220859EE500AF6814 /* Build configuration list for PBXNativeTarget "LXQPlayerManagerUITests" */;
+			buildPhases = (
+				EED4316F20859EE500AF6814 /* Sources */,
+				EED4317020859EE500AF6814 /* Frameworks */,
+				EED4317120859EE500AF6814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EED4317520859EE500AF6814 /* PBXTargetDependency */,
+			);
+			name = LXQPlayerManagerUITests;
+			productName = LXQPlayerManagerUITests;
+			productReference = EED4317320859EE500AF6814 /* LXQPlayerManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EED4314820859EE300AF6814 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = LXQ.inc;
+				TargetAttributes = {
+					EED4314F20859EE300AF6814 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					EED4316720859EE500AF6814 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = EED4314F20859EE300AF6814;
+					};
+					EED4317220859EE500AF6814 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = EED4314F20859EE300AF6814;
+					};
+				};
+			};
+			buildConfigurationList = EED4314B20859EE300AF6814 /* Build configuration list for PBXProject "LXQPlayerManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EED4314720859EE300AF6814;
+			productRefGroup = EED4315120859EE300AF6814 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EED4314F20859EE300AF6814 /* LXQPlayerManager */,
+				EED4316720859EE500AF6814 /* LXQPlayerManagerTests */,
+				EED4317220859EE500AF6814 /* LXQPlayerManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EED4314E20859EE300AF6814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED4316020859EE500AF6814 /* LaunchScreen.storyboard in Resources */,
+				EED4315D20859EE400AF6814 /* Assets.xcassets in Resources */,
+				EED4315B20859EE300AF6814 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED4316620859EE500AF6814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED4317120859EE500AF6814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EED4314C20859EE300AF6814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED4315820859EE300AF6814 /* ViewController.m in Sources */,
+				EED4316320859EE500AF6814 /* main.m in Sources */,
+				EED4318A20859EF800AF6814 /* LXQPlayerManager.m in Sources */,
+				EED4315520859EE300AF6814 /* AppDelegate.m in Sources */,
+				EED4318B20859EF800AF6814 /* LXQPlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED4316420859EE500AF6814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED4316D20859EE500AF6814 /* LXQPlayerManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED4316F20859EE500AF6814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED4317820859EE500AF6814 /* LXQPlayerManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EED4316A20859EE500AF6814 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EED4314F20859EE300AF6814 /* LXQPlayerManager */;
+			targetProxy = EED4316920859EE500AF6814 /* PBXContainerItemProxy */;
+		};
+		EED4317520859EE500AF6814 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EED4314F20859EE300AF6814 /* LXQPlayerManager */;
+			targetProxy = EED4317420859EE500AF6814 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EED4315920859EE300AF6814 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EED4315A20859EE300AF6814 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EED4315E20859EE400AF6814 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EED4315F20859EE400AF6814 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EED4317A20859EE500AF6814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EED4317B20859EE500AF6814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EED4317D20859EE500AF6814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQM25H9TT2;
+				INFOPLIST_FILE = LXQPlayerManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LXQ.LXQPlayerManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EED4317E20859EE500AF6814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQM25H9TT2;
+				INFOPLIST_FILE = LXQPlayerManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LXQ.LXQPlayerManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EED4318020859EE500AF6814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQM25H9TT2;
+				INFOPLIST_FILE = LXQPlayerManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LXQ.LXQPlayerManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXQPlayerManager.app/LXQPlayerManager";
+			};
+			name = Debug;
+		};
+		EED4318120859EE500AF6814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQM25H9TT2;
+				INFOPLIST_FILE = LXQPlayerManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LXQ.LXQPlayerManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXQPlayerManager.app/LXQPlayerManager";
+			};
+			name = Release;
+		};
+		EED4318320859EE500AF6814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQM25H9TT2;
+				INFOPLIST_FILE = LXQPlayerManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LXQ.LXQPlayerManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LXQPlayerManager;
+			};
+			name = Debug;
+		};
+		EED4318420859EE500AF6814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQM25H9TT2;
+				INFOPLIST_FILE = LXQPlayerManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LXQ.LXQPlayerManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LXQPlayerManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EED4314B20859EE300AF6814 /* Build configuration list for PBXProject "LXQPlayerManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED4317A20859EE500AF6814 /* Debug */,
+				EED4317B20859EE500AF6814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EED4317C20859EE500AF6814 /* Build configuration list for PBXNativeTarget "LXQPlayerManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED4317D20859EE500AF6814 /* Debug */,
+				EED4317E20859EE500AF6814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EED4317F20859EE500AF6814 /* Build configuration list for PBXNativeTarget "LXQPlayerManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED4318020859EE500AF6814 /* Debug */,
+				EED4318120859EE500AF6814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EED4318220859EE500AF6814 /* Build configuration list for PBXNativeTarget "LXQPlayerManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED4318320859EE500AF6814 /* Debug */,
+				EED4318420859EE500AF6814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EED4314820859EE300AF6814 /* Project object */;
+}
